@@ -1,7 +1,7 @@
 # findWindowsWSL_IP
 ## 简介
 
-每次开机自动查找 Windows 在WSL网络中的IP，并写入 hosts。
+自动查找 Windows 在WSL网络中的IP，并写入 hosts。
 
 自动刷新默认发行版系统的 Hosts，配合任务计划，当 WSL 启动时才执行脚本。刷新 WSL hosts 不会中断当前终端会话。
 
